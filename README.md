@@ -4,9 +4,11 @@
 #### The purpose of the Whoami tool makes you as anonymous as possible on linux systems. It is an user friendly with its ease of use and simple interface. It is ready to use after downloading, I will explain this in detail in the usage section. Finally, don't forget that there is never a hundred percent security on the internet!
   ## Features
  * Advanced log killer
- * Memory and RAM cleaner
+ * Anti-Cold Boot Attack
  * Hostname changer
  * Fully automatic MAC changer
+ * Browser anonymization
+ * Anti-Mitm
  * Timezone changer
  * IP changer
  
@@ -17,7 +19,7 @@
  ```
  ## Parameters
  ### Start
- Whoami asks you to choose your language, and then any missing requirements are checked. The missing ones are downloaded automatically and then 6 features are run sequentially full automatically.(The configs changed in the system are backed up and used to restore at the stop stage.)
+ Whoami asks you to choose your language, and then any missing requirements are checked. The missing ones are downloaded automatically and then 8 features are run sequentially full automatically.(The configs changed in the system are backed up and used to restore at the stop stage.)
  ```bash
  cd whoami
  sudo bash whoami --start (or bash whoami --start but this is not recommended)
